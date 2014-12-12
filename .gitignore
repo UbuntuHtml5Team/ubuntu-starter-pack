@@ -1,0 +1,10 @@
+.DS_Store
+.project
+temp
+dist
+node_modules
+.sass-cache
+.tmp
+.builds
+build
+docs

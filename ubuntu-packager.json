@@ -1,0 +1,12 @@
+{
+    "inspector": true,
+    "src": "dist",
+    "dest": "build",
+    "manifest": {
+      "description": "Ubuntu Touch Application",
+      "maintainer": "Ubuntu Developer",
+      "maintainer_email": "developer@ubuntu",
+      "title": "Untitled Application",
+      "id": "com.ubuntu.developer.untitled"
+    }
+}

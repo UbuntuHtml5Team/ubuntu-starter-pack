@@ -1,0 +1,85 @@
+@import "partials/colours";
+
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu, Roboto, Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: $orange-ubuntu;
+  outline: none;
+  text-decoration: none;
+}
+
+.app-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 2.75rem;
+
+  background-color: $orange-ubuntu;
+}
+
+.title-app-header {
+  margin: 0;
+  padding: 0 0.625rem;
+  line-height: 2.75rem;
+  color: white;
+  font-size: 1.25rem;
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+.app-content {
+  position: absolute;
+  top: 2.75rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  padding: 0.625rem;
+
+  background-color: $light-grey;
+
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.introduction {
+  padding: 0.625rem;
+}
+
+.introduction-title {
+  display: none;
+}
+
+.component-item {
+  padding: 0.625rem;
+  border-bottom: 0.125rem solid darken($light-grey, 10%);
+
+  &:first-of-type {
+    border-top: 0.125rem solid darken($light-grey, 10%);
+  }
+}
+
+.name-component-item {
+  color: $cool-grey;
+  margin-bottom: 0.625rem;
+}
+
+.desc-component-item {
+  margin-bottom: 0.625rem;
+}
+
+.icon-component-item {
+  margin-right: 0.625rem;
+}
