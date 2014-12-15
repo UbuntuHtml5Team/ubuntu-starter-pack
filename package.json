@@ -41,7 +41,7 @@
     "vinyl-source-stream": "^1.0.0",
     "vinyl-transform": "0.0.1",
     "watchify": "^2.1.1",
-    "ubuntu-webapp-packager": "git+ssh://git@github.com:jfmoy/webapp-packager.git#v0.1.6"
+    "ubuntu-webapp-packager": "git+ssh://git@github.com:UbuntuHtml5Team/ubuntu-webapp-packager.git#v0.1.7"
   },
   "engines": {
     "node": ">=0.10.0"
